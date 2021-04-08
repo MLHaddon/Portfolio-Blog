@@ -1,0 +1,9 @@
+post http://127.0.0.1:8000/api/projects/new HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Github.com Profile",
+  "description": "A link to my Github Profile",
+  "urlString": "https://github.com/MLHaddon",
+  "expLevel": 3
+}
